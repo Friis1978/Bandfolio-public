@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" font-family="Inter, -apple-system, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 7" refX="10" refY="3.5" markerWidth="8" markerHeight="6" orient="auto-start-reverse">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8"/>
+    </marker>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="800" height="520" fill="#0f172a" rx="16"/>
+  <text x="400" y="40" text-anchor="middle" fill="#f1f5f9" font-size="22" font-weight="700">Pipeline Flow</text>
+  <text x="400" y="62" text-anchor="middle" fill="#64748b" font-size="13">Tasks move left to right across the Jira board</text>
+
+  <!-- Row 1: To Do → Spec → Spec (approved) → Plan -->
+  <rect x="30" y="100" width="150" height="50" rx="10" fill="#3b82f6" filter="url(#shadow)"/>
+  <text x="105" y="131" text-anchor="middle" fill="#fff" font-size="15" font-weight="600">To Do</text>
+
+  <line x1="180" y1="125" x2="220" y2="125" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="200" y="118" text-anchor="middle" fill="#f59e0b" font-size="10" font-weight="500">Phase 0</text>
+
+  <rect x="225" y="100" width="150" height="50" rx="10" fill="#f59e0b" filter="url(#shadow)"/>
+  <text x="300" y="131" text-anchor="middle" fill="#fff" font-size="15" font-weight="600">Spec</text>
+
+  <line x1="375" y1="125" x2="415" y2="125" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="395" y="118" text-anchor="middle" fill="#22c55e" font-size="10" font-weight="500">PM</text>
+
+  <rect x="420" y="100" width="150" height="50" rx="10" fill="#22c55e" filter="url(#shadow)"/>
+  <text x="495" y="126" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">Spec</text>
+  <text x="495" y="142" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">(approved)</text>
+
+  <line x1="570" y1="125" x2="610" y2="125" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="590" y="118" text-anchor="middle" fill="#f59e0b" font-size="10" font-weight="500">Phase 1</text>
+
+  <rect x="615" y="100" width="150" height="50" rx="10" fill="#f59e0b" filter="url(#shadow)"/>
+  <text x="690" y="131" text-anchor="middle" fill="#fff" font-size="15" font-weight="600">Plan</text>
+
+  <!-- Connector down -->
+  <line x1="690" y1="150" x2="690" y2="210" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="700" y="185" fill="#22c55e" font-size="10" font-weight="500">PM</text>
+
+  <!-- Row 2: Plan (approved) → PR → PR (approved) → Done -->
+  <rect x="615" y="215" width="150" height="50" rx="10" fill="#22c55e" filter="url(#shadow)"/>
+  <text x="690" y="236" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">Plan</text>
+  <text x="690" y="252" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">(approved)</text>
+
+  <line x1="615" y1="240" x2="575" y2="240" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="595" y="233" text-anchor="middle" fill="#f59e0b" font-size="10" font-weight="500">Phase 2</text>
+
+  <rect x="420" y="215" width="150" height="50" rx="10" fill="#f59e0b" filter="url(#shadow)"/>
+  <text x="495" y="246" text-anchor="middle" fill="#fff" font-size="15" font-weight="600">PR</text>
+
+  <line x1="420" y1="240" x2="380" y2="240" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="400" y="233" text-anchor="middle" fill="#22c55e" font-size="10" font-weight="500">PM</text>
+
+  <rect x="225" y="215" width="150" height="50" rx="10" fill="#22c55e" filter="url(#shadow)"/>
+  <text x="300" y="236" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">PR</text>
+  <text x="300" y="252" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">(approved)</text>
+
+  <line x1="225" y1="240" x2="185" y2="240" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="205" y="233" text-anchor="middle" fill="#f59e0b" font-size="10" font-weight="500">Phase 3</text>
+
+  <rect x="30" y="215" width="150" height="50" rx="10" fill="#16a34a" filter="url(#shadow)"/>
+  <text x="105" y="246" text-anchor="middle" fill="#fff" font-size="15" font-weight="600">Done</text>
+
+  <!-- Legend -->
+  <rect x="170" y="310" width="14" height="14" rx="3" fill="#3b82f6"/>
+  <text x="190" y="322" fill="#94a3b8" font-size="12">New task</text>
+  <rect x="270" y="310" width="14" height="14" rx="3" fill="#f59e0b"/>
+  <text x="290" y="322" fill="#94a3b8" font-size="12">Claude (automated)</text>
+  <rect x="430" y="310" width="14" height="14" rx="3" fill="#22c55e"/>
+  <text x="450" y="322" fill="#94a3b8" font-size="12">PM approval (manual)</text>
+  <rect x="600" y="310" width="14" height="14" rx="3" fill="#16a34a"/>
+  <text x="620" y="322" fill="#94a3b8" font-size="12">Complete</text>
+
+  <!-- Phase descriptions -->
+  <rect x="30" y="355" width="170" height="140" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="115" y="380" text-anchor="middle" fill="#f59e0b" font-size="13" font-weight="700">Phase 0: Spec</text>
+  <text x="115" y="400" text-anchor="middle" fill="#94a3b8" font-size="11">Claude reads the task,</text>
+  <text x="115" y="416" text-anchor="middle" fill="#94a3b8" font-size="11">writes a feature spec,</text>
+  <text x="115" y="432" text-anchor="middle" fill="#94a3b8" font-size="11">saves it to Jira and</text>
+  <text x="115" y="448" text-anchor="middle" fill="#94a3b8" font-size="11">the _specs/ directory.</text>
+
+  <rect x="220" y="355" width="170" height="140" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="305" y="380" text-anchor="middle" fill="#f59e0b" font-size="13" font-weight="700">Phase 1: Plan</text>
+  <text x="305" y="400" text-anchor="middle" fill="#94a3b8" font-size="11">Claude reads the spec,</text>
+  <text x="305" y="416" text-anchor="middle" fill="#94a3b8" font-size="11">analyzes the codebase,</text>
+  <text x="305" y="432" text-anchor="middle" fill="#94a3b8" font-size="11">and writes a step-by-step</text>
+  <text x="305" y="448" text-anchor="middle" fill="#94a3b8" font-size="11">implementation plan.</text>
+
+  <rect x="410" y="355" width="170" height="140" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="495" y="380" text-anchor="middle" fill="#f59e0b" font-size="13" font-weight="700">Phase 2: Build</text>
+  <text x="495" y="400" text-anchor="middle" fill="#94a3b8" font-size="11">Claude creates a branch,</text>
+  <text x="495" y="416" text-anchor="middle" fill="#94a3b8" font-size="11">writes the code, runs</text>
+  <text x="495" y="432" text-anchor="middle" fill="#94a3b8" font-size="11">lint and format, then</text>
+  <text x="495" y="448" text-anchor="middle" fill="#94a3b8" font-size="11">opens a pull request.</text>
+
+  <rect x="600" y="355" width="170" height="140" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="685" y="380" text-anchor="middle" fill="#f59e0b" font-size="13" font-weight="700">Phase 3: Merge</text>
+  <text x="685" y="400" text-anchor="middle" fill="#94a3b8" font-size="11">Claude merges the PR,</text>
+  <text x="685" y="416" text-anchor="middle" fill="#94a3b8" font-size="11">deletes the branch,</text>
+  <text x="685" y="432" text-anchor="middle" fill="#94a3b8" font-size="11">and marks the task</text>
+  <text x="685" y="448" text-anchor="middle" fill="#94a3b8" font-size="11">as done.</text>
+</svg>

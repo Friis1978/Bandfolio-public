@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="800" height="180" font-family="Inter, -apple-system, sans-serif">
+  <rect width="800" height="180" fill="#0f172a" rx="16"/>
+  <text x="400" y="30" text-anchor="middle" fill="#f1f5f9" font-size="16" font-weight="700">Jira Kanban Board Columns</text>
+
+  <!-- Column headers -->
+  <rect x="10" y="50" width="88" height="110" rx="8" fill="#3b82f6" opacity="0.15" stroke="#3b82f6" stroke-width="1"/>
+  <text x="54" y="75" text-anchor="middle" fill="#3b82f6" font-size="11" font-weight="700">To Do</text>
+  <text x="54" y="130" text-anchor="middle" fill="#64748b" font-size="9">You write</text>
+  <text x="54" y="142" text-anchor="middle" fill="#64748b" font-size="9">the task</text>
+
+  <rect x="108" y="50" width="88" height="110" rx="8" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" stroke-width="1"/>
+  <text x="152" y="75" text-anchor="middle" fill="#f59e0b" font-size="11" font-weight="700">Spec</text>
+  <text x="152" y="130" text-anchor="middle" fill="#64748b" font-size="9">Claude writes</text>
+  <text x="152" y="142" text-anchor="middle" fill="#64748b" font-size="9">the spec</text>
+
+  <rect x="206" y="50" width="88" height="110" rx="8" fill="#22c55e" opacity="0.15" stroke="#22c55e" stroke-width="1"/>
+  <text x="250" y="70" text-anchor="middle" fill="#22c55e" font-size="11" font-weight="700">Spec</text>
+  <text x="250" y="84" text-anchor="middle" fill="#22c55e" font-size="11" font-weight="700">(approved)</text>
+  <text x="250" y="130" text-anchor="middle" fill="#64748b" font-size="9">PM reviews</text>
+  <text x="250" y="142" text-anchor="middle" fill="#64748b" font-size="9">and approves</text>
+
+  <rect x="304" y="50" width="88" height="110" rx="8" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" stroke-width="1"/>
+  <text x="348" y="75" text-anchor="middle" fill="#f59e0b" font-size="11" font-weight="700">Plan</text>
+  <text x="348" y="130" text-anchor="middle" fill="#64748b" font-size="9">Claude writes</text>
+  <text x="348" y="142" text-anchor="middle" fill="#64748b" font-size="9">the plan</text>
+
+  <rect x="402" y="50" width="88" height="110" rx="8" fill="#22c55e" opacity="0.15" stroke="#22c55e" stroke-width="1"/>
+  <text x="446" y="70" text-anchor="middle" fill="#22c55e" font-size="11" font-weight="700">Plan</text>
+  <text x="446" y="84" text-anchor="middle" fill="#22c55e" font-size="11" font-weight="700">(approved)</text>
+  <text x="446" y="130" text-anchor="middle" fill="#64748b" font-size="9">PM reviews</text>
+  <text x="446" y="142" text-anchor="middle" fill="#64748b" font-size="9">and approves</text>
+
+  <rect x="500" y="50" width="88" height="110" rx="8" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" stroke-width="1"/>
+  <text x="544" y="75" text-anchor="middle" fill="#f59e0b" font-size="11" font-weight="700">PR</text>
+  <text x="544" y="130" text-anchor="middle" fill="#64748b" font-size="9">Claude opens</text>
+  <text x="544" y="142" text-anchor="middle" fill="#64748b" font-size="9">a pull request</text>
+
+  <rect x="598" y="50" width="88" height="110" rx="8" fill="#22c55e" opacity="0.15" stroke="#22c55e" stroke-width="1"/>
+  <text x="642" y="70" text-anchor="middle" fill="#22c55e" font-size="11" font-weight="700">PR</text>
+  <text x="642" y="84" text-anchor="middle" fill="#22c55e" font-size="11" font-weight="700">(approved)</text>
+  <text x="642" y="130" text-anchor="middle" fill="#64748b" font-size="9">PM reviews</text>
+  <text x="642" y="142" text-anchor="middle" fill="#64748b" font-size="9">the code</text>
+
+  <rect x="696" y="50" width="88" height="110" rx="8" fill="#16a34a" opacity="0.15" stroke="#16a34a" stroke-width="1"/>
+  <text x="740" y="75" text-anchor="middle" fill="#16a34a" font-size="11" font-weight="700">Done</text>
+  <text x="740" y="130" text-anchor="middle" fill="#64748b" font-size="9">Claude merges</text>
+  <text x="740" y="142" text-anchor="middle" fill="#64748b" font-size="9">and cleans up</text>
+</svg>
