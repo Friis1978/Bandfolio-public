@@ -29,19 +29,19 @@ Read the full tutorial with diagrams: **[AutomatedWorkflow.md](AutomatedWorkflow
 
 ### Site browsing
 
-<a href="https://friis1978.github.io/Bandfolio/site-tour.mp4"><img src="docs/site-tour-thumb.jpg" alt="Site tour demo" width="640" /></a>
+<a href="https://friis1978.github.io/Bandfolio-public/site-tour.mp4"><img src="docs/site-tour-thumb.jpg" alt="Site tour demo" width="640" /></a>
 
 Click the thumbnail to watch the demo video.
 
 ### Album browsing
 
-<a href="https://friis1978.github.io/Bandfolio/album.mp4"><img src="docs/album-thumb.jpg" alt="Album tour demo" width="640" /></a>
+<a href="https://friis1978.github.io/Bandfolio-public/album.mp4"><img src="docs/album-thumb.jpg" alt="Album tour demo" width="640" /></a>
 
 Click the thumbnail to watch the album browsing and waveform player demo.
 
 ### Album creation
 
-<a href="https://friis1978.github.io/Bandfolio/album-create.mp4"><img src="docs/album-create-thumb.jpg" alt="Album creation demo" width="640" /></a>
+<a href="https://friis1978.github.io/Bandfolio-public/album-create.mp4"><img src="docs/album-create-thumb.jpg" alt="Album creation demo" width="640" /></a>
 
 Click the thumbnail to watch the album creation demo.
 
