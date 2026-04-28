@@ -45,6 +45,193 @@ Click the thumbnail to watch the album browsing and waveform player demo.
 
 Click the thumbnail to watch the album creation demo.
 
+### Public pages
+
+<table>
+<tr>
+<td align="center" width="50%">
+<strong>Home</strong><br>
+<sub>Landing page with video banner, scroll-to-content and article feed</sub><br><br>
+<a href="page-images/home.jpg"><img src="page-images/home.jpg" width="400" alt="Home page" /></a><br>
+<sub><a href="page-images/home-content.jpg">Content view</a></sub>
+</td>
+<td align="center" width="50%">
+<strong>Music</strong><br>
+<sub>Album grid with cover art, artist names and release years</sub><br><br>
+<a href="page-images/music.jpg"><img src="page-images/music.jpg" width="400" alt="Music page" /></a><br>
+<sub><a href="page-images/music-content.jpg">Content view</a></sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<strong>Videos</strong><br>
+<sub>Video grid with YouTube embeds and modal player</sub><br><br>
+<a href="page-images/videos.jpg"><img src="page-images/videos.jpg" width="400" alt="Videos page" /></a><br>
+<sub><a href="page-images/videos-content.jpg">Content view</a></sub>
+</td>
+<td align="center">
+<strong>Images</strong><br>
+<sub>Photo gallery with lightbox browsing</sub><br><br>
+<a href="page-images/images.jpg"><img src="page-images/images.jpg" width="400" alt="Images page" /></a><br>
+<sub><a href="page-images/images-content.jpg">Content view</a></sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<strong>Concerts</strong><br>
+<sub>Upcoming shows with venue images, dates and ticket links</sub><br><br>
+<a href="page-images/concerts.jpg"><img src="page-images/concerts.jpg" width="400" alt="Concerts page" /></a><br>
+<sub><a href="page-images/concerts-content.jpg">Content view</a></sub>
+</td>
+<td align="center">
+<strong>About Us</strong><br>
+<sub>Band member profiles with photos, roles and bios</sub><br><br>
+<a href="page-images/about-us.jpg"><img src="page-images/about-us.jpg" width="400" alt="About Us page" /></a><br>
+<sub><a href="page-images/about-us-content.jpg">Content view</a></sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<strong>Terms</strong><br>
+<sub>Terms and conditions page with section-based content</sub><br><br>
+<a href="page-images/terms.jpg"><img src="page-images/terms.jpg" width="400" alt="Terms page" /></a><br>
+<sub><a href="page-images/terms-content.jpg">Content view</a></sub>
+</td>
+<td align="center">
+<strong>Privacy Policy</strong><br>
+<sub>Privacy policy page with GDPR-compliant content sections</sub><br><br>
+<a href="page-images/privacy-policy.jpg"><img src="page-images/privacy-policy.jpg" width="400" alt="Privacy Policy page" /></a><br>
+<sub><a href="page-images/privacy-policy-content.jpg">Content view</a></sub>
+</td>
+</tr>
+</table>
+
+### Admin tables
+
+<table>
+<tr>
+<td align="center" width="50%">
+<strong>Albums</strong><br>
+<sub>Manage albums with cover art, artist, year and track count</sub><br><br>
+<a href="page-images/admin-albums.jpg"><img src="page-images/admin-albums.jpg" width="400" alt="Admin albums" /></a><br>
+<sub><a href="page-images/admin-albums-content.jpg">Scrolled view</a></sub>
+</td>
+<td align="center" width="50%">
+<strong>Articles</strong><br>
+<sub>Manage news articles with headings, images and rich text</sub><br><br>
+<a href="page-images/admin-articles.jpg"><img src="page-images/admin-articles.jpg" width="400" alt="Admin articles" /></a><br>
+<sub><a href="page-images/admin-articles-content.jpg">Scrolled view</a></sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<strong>Pages</strong><br>
+<sub>Manage dynamic pages with headers, images and sections</sub><br><br>
+<a href="page-images/admin-pages.jpg"><img src="page-images/admin-pages.jpg" width="400" alt="Admin pages" /></a><br>
+<sub><a href="page-images/admin-pages-content.jpg">Scrolled view</a></sub>
+</td>
+<td align="center">
+<strong>Members</strong><br>
+<sub>Manage band member profiles with photos and bios</sub><br><br>
+<a href="page-images/admin-members.jpg"><img src="page-images/admin-members.jpg" width="400" alt="Admin members" /></a><br>
+<sub><a href="page-images/admin-members-content.jpg">Scrolled view</a></sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<strong>Gallery</strong><br>
+<sub>Manage press photos and promotional images</sub><br><br>
+<a href="page-images/admin-gallery.jpg"><img src="page-images/admin-gallery.jpg" width="400" alt="Admin gallery" /></a><br>
+<sub><a href="page-images/admin-gallery-content.jpg">Scrolled view</a></sub>
+</td>
+<td align="center">
+<strong>Videos</strong><br>
+<sub>Manage YouTube video embeds with titles and links</sub><br><br>
+<a href="page-images/admin-videos.jpg"><img src="page-images/admin-videos.jpg" width="400" alt="Admin videos" /></a><br>
+<sub><a href="page-images/admin-videos-content.jpg">Scrolled view</a></sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<strong>Bookings</strong><br>
+<sub>Booking queue with approval status, dates and Stripe payments</sub><br><br>
+<a href="page-images/admin-bookings.jpg"><img src="page-images/admin-bookings.jpg" width="400" alt="Admin bookings" /></a><br>
+<sub><a href="page-images/admin-bookings-content.jpg">Scrolled view</a></sub>
+</td>
+<td align="center">
+<strong>Page Info</strong><br>
+<sub>Site-wide settings: theme colors, currency, logos and metadata</sub><br><br>
+<a href="page-images/admin-pageinfo.jpg"><img src="page-images/admin-pageinfo.jpg" width="400" alt="Admin page info" /></a><br>
+<sub><a href="page-images/admin-pageinfo-content.jpg">Scrolled view</a></sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<strong>Activity Log</strong><br>
+<sub>Audit trail of all admin actions with timestamps and details</sub><br><br>
+<a href="page-images/admin-log.jpg"><img src="page-images/admin-log.jpg" width="400" alt="Admin activity log" /></a><br>
+<sub><a href="page-images/admin-log-content.jpg">Scrolled view</a></sub>
+</td>
+<td></td>
+</tr>
+</table>
+
+### Admin edit views
+
+<table>
+<tr>
+<td align="center" width="50%">
+<strong>Edit Album</strong><br>
+<sub>Edit album details, cover art, descriptions and manage audio tracks</sub><br><br>
+<a href="page-images/edit-album.jpg"><img src="page-images/edit-album.jpg" width="400" alt="Edit album" /></a><br>
+<sub><a href="page-images/edit-album-content.jpg">Scrolled view</a></sub>
+</td>
+<td align="center" width="50%">
+<strong>Edit Article</strong><br>
+<sub>Rich text editor with bilingual headings and drag-and-drop image gallery</sub><br><br>
+<a href="page-images/edit-article.jpg"><img src="page-images/edit-article.jpg" width="400" alt="Edit article" /></a><br>
+<sub><a href="page-images/edit-article-content.jpg">Scrolled view</a></sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<strong>Edit Page</strong><br>
+<sub>Page editor with dropdown selector, bilingual fields and section management</sub><br><br>
+<a href="page-images/edit-page.jpg"><img src="page-images/edit-page.jpg" width="400" alt="Edit page" /></a><br>
+<sub><a href="page-images/edit-page-content.jpg">Scrolled view</a></sub>
+</td>
+<td align="center">
+<strong>Edit Member</strong><br>
+<sub>Member profile editor with name, bilingual role/description and photo</sub><br><br>
+<a href="page-images/edit-member.jpg"><img src="page-images/edit-member.jpg" width="400" alt="Edit member" /></a><br>
+<sub><a href="page-images/edit-member-content.jpg">Scrolled view</a></sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<strong>Edit Gallery</strong><br>
+<sub>Gallery image editor with title, bilingual description and image upload</sub><br><br>
+<a href="page-images/edit-gallery.jpg"><img src="page-images/edit-gallery.jpg" width="400" alt="Edit gallery" /></a><br>
+<sub><a href="page-images/edit-gallery-content.jpg">Scrolled view</a></sub>
+</td>
+<td align="center">
+<strong>Edit Video</strong><br>
+<sub>YouTube video editor with title and link fields</sub><br><br>
+<a href="page-images/edit-youtube.jpg"><img src="page-images/edit-youtube.jpg" width="400" alt="Edit video" /></a><br>
+<sub><a href="page-images/edit-youtube-content.jpg">Scrolled view</a></sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<strong>Edit Booking</strong><br>
+<sub>Booking detail with payment overview, Stripe reference, approval toggle and venue image</sub><br><br>
+<a href="page-images/edit-booking.jpg"><img src="page-images/edit-booking.jpg" width="400" alt="Edit booking" /></a><br>
+<sub><a href="page-images/edit-booking-content.jpg">Scrolled view</a></sub>
+</td>
+<td></td>
+</tr>
+</table>
+
 ## Tech stack
 
 - Vue 3 + Vite 6
