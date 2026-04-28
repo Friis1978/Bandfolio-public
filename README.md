@@ -178,7 +178,7 @@ Cross-cutting building blocks used by three or more domains — not a domain its
 - **Table components** — PrimeVue DataTable wrappers for every admin list (albums, articles, bookings, pages, sections, gallery, video, members, users, activity log).
 - **Input components** — `text`, `textarea`, `dropdown`, `file`, `image`, `range`, `year` inputs built on PrimeVue's `FloatLabel` pattern.
 - **Layout** — `DefaultLayout`, header, footer, image gallery and page sections.
-- **Shared views** — `HomeView`, `AboutUsView`, `TermsView`, `PrivacyView`, `PricingView`, `PracticalInfoView`, `ParallaxView`, `PreviewView` (component dev sandbox), `LogIndexView`, `ImagesView`.
+- **Shared views** — `HomeView`, `AboutUsView`, `TermsView`, `PrivacyView`, `ParallaxView`, `PreviewView` (component dev sandbox), `LogIndexView`, `ImagesView`.
 - **Composables** — `useToast`, `useAutoTranslate`, `usePhoneValidation`, `useFormValidation`, `useGooglePlaces`.
 - **Lib** — `supabase` clients, `format`, `constants` (source of truth for routes, menus, form schemas), `i18n`, `translate`, `logger`, `validators`, `database.types`, `colors`, `countries`, `pageinfo`, `booking.types`, `notifications`.
 - **Stores** — `data` (content cache + activity log) and `theme`.
